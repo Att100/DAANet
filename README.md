@@ -17,8 +17,19 @@ The script to reproduce all the figures, tables in the paper are as follows:
 + `main.py`: ...
 
 ### Data
-
-### Model
++ `main.py`: ...
 
 ### Results 
-
++ `samples of qualitative results -  DAANet with VGG16 backbone and boundary-joint training_0/1.pdf`: 
++ `boundary ground-truth_0/1.pdf`: 
++ `boundary ground-truth_0/1.pdf`: 
++ `DUTS-OMRON_pr_curves.pdf`:
++ `DUTS-TE_pr_curves.pdf`:
++ `DUT-OMRON_fm_curves.pdf`:
++ `DUTS-TE_fm_curves.pdf`:
++ `ECSSD_fm_curves.pdf`:
++ `ECSSD_pr_curves.pdf`:
++ `HKU-IS_fm_curves.pdf`:
++ `HKU-IS_pr_curves.pdf`:
++ `PASCAL-S_fm_curves.pdf`:
++ `PASCAL-S_pr_curves.pdf`:
