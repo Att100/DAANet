@@ -1,4 +1,4 @@
-# DAANet
+# DAANet: Dual Attention Aggregating Network for Salient Object Detection
 
 With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: 
 
@@ -16,6 +16,9 @@ All codes are written in `python`.
 The script to reproduce all the figures, tables in the paper are as follows:
 + `main.py`: ...
 
+### Data
+
+### Model
 
 ### Results 
 
