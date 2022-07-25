@@ -14,13 +14,25 @@ All codes are written in `python`.
 
 ### Code 
 The script to reproduce all the figures, tables in the paper are as follows:
-+ `main.py`: ...
++ `notebook.ipynb`: you can follow the instruction to reproduce all the figures
+    - if you would like to reproduce `Figure. 7` and `Figure. 8` of our paper, please download the the pre-computed salient maps of other works (provided by [sal_eval_toolbox](https://github.com/ArcherFMY/sal_eval_toolbox)) from our link: [download]() and then unzip them under your path `<PATH>` and set the value of variable `papers_mask_path` to `"<PATH>"`.
+    - you need to download pretrained weights from [download](https://pan.baidu.com/s/1vuxjAxmBPZJO8pqBYP5GUQ?pwd=bpsz) and place them in `./checkpoints` folder before using this jupyter notebook
++ `train.py`: you can follow the instruction below and run this script to train the model
++ `test.py`: you can use this code to generate the salient map or boundary
 
 ### Data
-+ `DUTS-TR`: ...
-+ `DUTS-TE`: ...
-+ `SOD`: ...
-...
+
++ `DUTS-TR`: [link](http://saliencydetection.net/duts/)
++ `DUTS-TE`: [link](http://saliencydetection.net/duts/)
++ `ECSSD`: [link](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html)
++ `HKU-IS`: [link](https://i.cs.hku.hk/~gbli/deep_saliency.html)
++ `DUT-OMRON`: [link](http://saliencydetection.net/dut-omron/)
++ `PASCAL-S`: [link](http://cbi.gatech.edu/salobj/#download)
++ `SOD`: [link](http://cs-people.bu.edu/jmzhang/sos.html)
+
+### Evaluation
+
+Our evaluation code is borrowed from [Binary-Segmentation-Evaluation-Tool](https://github.com/xuebinqin/Binary-Segmentation-Evaluation-Tool) and [sal_eval_toolbox](https://github.com/ArcherFMY/sal_eval_toolbox), the modified code have been placed in `_3rdparty` folder.
 
 ### Results 
 
