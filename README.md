@@ -39,13 +39,4 @@ Our evaluation code is borrowed from [Binary-Segmentation-Evaluation-Tool](https
 + `samples of qualitative results -  DAANet with VGG16 backbone and boundary-joint training_0/1.pdf`: It evaluates DAANet qualitatively by comparing the generated salient map and boundary with ground truth. The figure shows the effectiveness of both the DAAM module and boundary-joint training strategy.
 + `qualitative results with ResNet50 backbone and without BJD.pdf`: It compares DAANet (ResNet50 backbone) with seven different approaches, including BASNet, PiCANet, BMPM, R3Net+, PAGRN, SRM and DGRL. The results show that DAANet significantly improves the quality of the generated salient map, while DAANet can capture more details and have fewer wrong predictions than others.
 + `boundary ground-truth_0/1.pdf`: These two figures show four samples of using the Prewitt operator to implement a simple boundary extraction function to extract the accurate boundary from provided saliency map ground-truth.
-+ `DUTS-OMRON_pr_curves.pdf`:
-+ `DUTS-TE_pr_curves.pdf`:
-+ `DUT-OMRON_fm_curves.pdf`:
-+ `DUTS-TE_fm_curves.pdf`:
-+ `ECSSD_fm_curves.pdf`:
-+ `ECSSD_pr_curves.pdf`:
-+ `HKU-IS_fm_curves.pdf`:
-+ `HKU-IS_pr_curves.pdf`:
-+ `PASCAL-S_fm_curves.pdf`:
-+ `PASCAL-S_pr_curves.pdf`:
++ Illustration of PR curves and F-measure curves on five benchmark datasets are shown in `DUTS-OMRON_pr_curves.pdf`, `DUTS-TE_pr_curves.pdf`, `DUT-OMRON_fm_curves.pdf`, `DUTS-TE_fm_curves.pdf`, `ECSSD_fm_curves.pdf`, `ECSSD_pr_curves.pdf`, `HKU-IS_fm_curves.pdf`, `HKU-IS_pr_curves.pdf`, `PASCAL-S_fm_curves.pdf`, and `PASCAL-S_pr_curves.pdf`.
