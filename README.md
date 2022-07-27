@@ -15,7 +15,7 @@ All codes are written in `python`.
 ### Code 
 The script to reproduce all the figures, tables in the paper are as follows:
 + `notebook.ipynb`: you can follow the instruction to reproduce all the figures
-    - if you would like to reproduce `Figure. 7` and `Figure. 8` of our paper, please download the the pre-computed salient maps of other works (provided by [sal_eval_toolbox](https://github.com/ArcherFMY/sal_eval_toolbox)) from our link: [download](https://pan.baidu.com/s/1p0K0K7D6ljC3DmFS8irAjA?pwd=f7b2) and then unzip them under your path `<PATH>` and set the value of variable `papers_mask_path` to `"<PATH>"`.
+    - if you would like to reproduce `Figure 7` and `Figure 8` of our paper, please download the the pre-computed salient maps of other works (provided by [sal_eval_toolbox](https://github.com/ArcherFMY/sal_eval_toolbox)) from our link: [download](https://pan.baidu.com/s/1p0K0K7D6ljC3DmFS8irAjA?pwd=f7b2) and then unzip them under your path `<PATH>` and set the value of variable `papers_mask_path` to `"<PATH>"`.
     - you need to download pretrained weights from [download](https://pan.baidu.com/s/1nz-riMtb9VW2fpIEK0uqXw?pwd=j5r3) and place them in `./checkpoints` folder before using this jupyter notebook
 + `train.py`: you can follow the instruction below and run this script to train the model
 + `test.py`: you can use this code to generate the salient map or boundary
