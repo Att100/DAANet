@@ -2,12 +2,12 @@
 
 With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: 
 
-> Y. Li, H. Wang, S. Wang, S. Dev. “DAANet: Dual Attention Aggregating Network for Salient Object Detection”, Signal Processing: Image Communication, under review, 2022
+> Y. Li, H. Wang, Z. Li, S. Wang, S. Dev, G. Zuo. “DAANet: Dual Attention Aggregating Network for Salient Object Detection”, IEEE International Conference on Robotics and Biomimetics (ROBIO), 2023
 
 ### Citing DAANet
 If you find DAANet useful in your research, please consider citing our [paper](https://ieeexplore.ieee.org/document/10354933).
 ```
-@INPROCEEDINGS{10354933,
+@INPROCEEDINGS{li2023daanet,
   author={Li, Yijie and Wang, Hewei and Li, Zhenqi and Wang, Shaofan and Dev, Soumyabrata and Zuo, Guoyu},
   booktitle={2023 IEEE International Conference on Robotics and Biomimetics (ROBIO)}, 
   title={DAANet: Dual Attention Aggregating Network for Salient Object Detection*}, 
